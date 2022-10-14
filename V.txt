@@ -32,7 +32,7 @@ document.write(`
       <dt>Call & Message</dt>
         <dd>
      <a href="https://wa.me/+919510591045"><img id="W1" /></a>
-     <img id="C1" onclick="window.open('tel:+919510591045', '_blank');" />
+     <img id="C1" onclick="window.open('tel:+919510591045', '_self');" />
         </dd>
     </dl>
   </main>
