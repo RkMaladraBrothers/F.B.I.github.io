@@ -31,7 +31,7 @@ document.write(`
         <dd>X Dock</dd>
       <dt>Call & Message</dt>
         <dd>
-     <img id="W1" onclick="window.open('https://wa.me/+919510591045');"/>
+     <img id="W1" href="https://wa.me/+919510591045');"
      <img id="C1" onclick="window.open('tel:+919510591045', '_blank');" />
         </dd>
     </dl>
