@@ -1,0 +1,42 @@
+document.write(`
+ <tr>
+   <td id="R1" onclick="changepic1('div2')">urs (2021)</td>
+  </tr>
+ <div class="profile" id="H1" style="display: none;">
+  <figure>
+    <img id="div2" onClick="openLightbox(this)" />
+  </figure>
+  <header>
+    <h2 id="h1">Maria Gonzalez
+      <small>Client Happiness Manager</small></h2>
+  </header>
+  
+  <div class="toggle">
+    <input type="checkbox" style="display: none;" class="view_details1" id="view_details1">
+    <label for="view_details1" title="tap here to view full profile">☰</label>    
+  </div>
+  <main>
+    <dl>
+      <dt>Full name</dt>
+        <dd>Sisodiya Vishvarajsinh</dd>
+      <dt>Date of join</dt>
+        <dd>20-07-2022</dd>
+      <dt>Employee Id</dt>
+        <dd>2437936</dd>
+      <dt>Position</dt>
+        <dd>M.H.</dd>
+      <dt>Contract</dt>
+        <dd>Redex</dd>
+      <dt>Work Place</dt>
+        <dd>X Dock</dd>
+      <dt>Social</dt>
+        <dd>
+          <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> 
+          <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        </dd>
+    </dl>
+  </main>
+
+</div> <!-- end profile -->
+
+  `);

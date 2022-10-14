@@ -1,0 +1,104 @@
+body {
+ width: 100%;
+ background: black url(Webp.net-resizeimage.png) no-repeat center center fixed;
+ background-size: cover;
+}
+
+a {
+ color: inherit;
+ text-decoration: none;
+}
+
+
+#myInput {
+ background-image: url('/css/searchicon.png');
+ background-position: 10px 10px;
+ background-repeat: no-repeat;
+ background-color: rgba(0, 0, 0, 0.4);
+ width: 100%;
+ font-size: 3.5vw;
+ padding: 12px 20px 12px 40px;
+ border: 1px solid #ddd;
+ margin-bottom: 12px;
+ color: white;
+}
+
+#header {
+ width: 100%;
+ font-size: 3.5vw;
+ display: none;
+ font-weight: 500;
+ color: white;
+ padding-top: 2.5%;
+}
+
+#header td {
+ text-align: left;
+ padding: 10px;
+  border: 1px solid red;
+}
+
+
+#Hide {
+ Color: White;
+ font-size: 5.3vw;
+ font-weight: 600;
+ position: absolute;
+ top: 47vw;
+ left: 18vw;
+}
+
+#Hide1 {
+ Color: White;
+ font-size: 4.8vw;
+ font-weight: 600;
+ position: absolute;
+ top: 55vw;
+ left: 22vw;
+}
+
+#Hide2 {
+ color: #111;
+ font-family: 'Nosifer', cursive;
+ letter-spacing: 0.5vw;
+ text-shadow: 0 0 7px #CF000F,
+  0 0 10px red;
+ font-size: 3.3vw;
+ font-weight: 600;
+ position: absolute;
+ top: 64.3vw;
+ left: 28.3vw;
+}
+
+#Hide3 {
+ Color: White;
+ font-size: 4vw;
+ font-weight: 600;
+ position: absolute;
+ top: 72vw;
+ left: 4vw;
+ text-shadow: 0 0 7px #CF000F,
+  0 0 10px red;
+}
+
+#Hide4 {
+ Color: White;
+ font-size: 5vw;
+ font-weight: 600;
+ position: absolute;
+ top: 82vw;
+ left: 17vw;
+}
+
+#Hide5 {
+ color: #111;
+ font-family: 'Nosifer', cursive;
+ letter-spacing: 0.5vw;
+ text-shadow: 0 0 7px #CF000F,
+  0 0 10px red;
+ font-size: 3.5vw;
+ font-weight: 600;
+ position: absolute;
+ top: 92vw;
+ left: 27.5vw;
+}
