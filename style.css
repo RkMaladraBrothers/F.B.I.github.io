@@ -1,0 +1,67 @@
+body {
+ width: 100%;
+ background: black url(Webp.net-resizeimage.png) no-repeat center center fixed;
+ background-size: cover;
+ user-select: none;
+}
+
+.R{
+ display: none;
+}
+
+a {
+ color: inherit;
+ text-decoration: none;
+}
+
+
+#myInput {
+ background-image: url('/css/searchicon.png');
+ background-position: 10px 10px;
+ background-repeat: no-repeat;
+ background-color: rgba(0, 0, 0, 0.4);
+ width: 100%;
+ font-size: 3.5vw;
+ padding: 12px 20px 12px 40px;
+ border: 1px solid #ddd;
+ margin-bottom: 12px;
+ color: white;
+}
+
+#header {
+ width: 100%;
+ font-size: 3.5vw;
+ display: none;
+ font-weight: 500;
+ color: white;
+ padding-top: 2.5%;
+}
+
+#header td {
+ text-align: left;
+ padding: 10px;
+  border: 1px solid red;
+}
+
+#Hide1 {
+ Color: White;
+ font-family: serif;
+ font-size: 8vw;
+ font-weight: 600;
+ position: absolute;
+ top: 55vw;
+ left: 23vw;
+}
+
+#Hide2 {
+ color: blue;
+ font-family: 'Times New Roman', Times, serif;
+ letter-spacing: 0.5vw;
+ text-decoration: underline;
+ cursor: pointer;
+ font-size: 5vw;
+ font-weight: 600;
+ position: absolute;
+ top: 73vw;
+ left: 33vw;
+}

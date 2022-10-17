@@ -1,0 +1,41 @@
+document.write(`
+ <tr>
+   <td id="R2" onclick="changepic('div1'); changepic01('W1'); changepic_1('C1');"> Vishvarajsinh Sisodiya <span class="R">X-Dock 2437936</span></td>
+  </tr>
+ <div class="profile" id="H2" style="display: none;">
+  <figure>
+    <img class="I" id="div1" onClick="openLightbox(this)"/>
+  </figure>
+  <header>
+    <h2 id="h2">Vishvarajsinh
+      <small>M.H.</small></h2>
+  </header>
+  
+  <div class="toggle">
+    <input type="checkbox" style="display: none;" class="view_details" id="view_details">
+    <label for="view_details" title="tap here to view full profile">☰</label>    
+  </div>
+  <main>
+    <dl>
+      <dt>Full name</dt>
+        <dd>Sisodiya Vishvarajsinh</dd>
+      <dt>Employee Id</dt>
+        <dd>2437936</dd>
+     <dt>Call & Message</dt>
+    <dd><img id="W1" onclick="window.open('https://wa.me/+919510591045', '_blank');"/><img id="C1" onclick="window.open('tel:+919510591045', '_blank');" /></dd>
+      <dt>Designation</dt>
+        <dd>M.H.</dd>
+      <dt>Contract</dt>
+        <dd>Redex</dd>
+      <dt>Work Place</dt>
+        <dd>X Dock</dd>
+        <dt>Date of join</dt>
+        <dd>20-07-2022</dd>
+      <dt>Download Pdf</dt>
+      <dd><button>Download</button></dd>
+    </dl>
+  </main>
+
+</div> <!-- end profile -->
+
+  `);

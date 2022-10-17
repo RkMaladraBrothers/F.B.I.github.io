@@ -1,0 +1,28 @@
+document.write(`
+ <div class="profile" id="H" style="display: none;">
+  <figure>
+    <img class="I" id="div2" onClick="openLightbox(this)" />
+  </figure>
+  <header>
+    <h2 id="h">Vishvarajsinh
+      <small>Web_Coder</small></h2>
+  </header>
+  
+  <div class="toggle">
+    <input type="checkbox" style="display: none;" class="view_details1" id="view_details1">
+    <label for="view_details1" title="tap here to view full profile">☰</label>    
+  </div>
+  <main>
+    <dl>
+      <dt>Full name</dt>
+        <dd>Sisodiya Vishvarajsinh</dd>
+      <dt>Position</dt>
+        <dd>Web_Coder</dd>
+      <dt>Call & Message</dt>
+            <dd><img id="W" onclick="window.open('https://wa.me/+919510591045', '_blank');"/><img id="C" onclick="window.open('tel:+919510591045', '_blank');" /></dd>
+    </dl>
+  </main>
+
+</div> <!-- end profile -->
+
+  `);
