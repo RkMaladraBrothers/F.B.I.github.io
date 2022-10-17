@@ -11,9 +11,9 @@ closeLightbox = () => lightbox.classList.add("hidden");
 
 
 
- function changepic(V) { document.getElementById(V).src = "ImgG.jpg"; }
+ function changepic001(V) { document.getElementById(V).src = "ImgG.jpg"; }
  
- function changepic1(V1) { document.getElementById(V1).src = "Img.jpg"; }
+ function changepic(V1) { document.getElementById(V1).src = "Img.jpg"; }
 
   
   
