@@ -1,6 +1,6 @@
 document.write(`
  <tr>
-   <td id="R2" onclick="changepic('div1'); changepic01('W1'); changepic_1('C1');"> Vishvarajsinh Sisodiya <span class="R">X-Dock 2437936</span></td>
+   <td id="R2" onclick="changepic001('div1'); changepic01('W1'); changepic_1('C1');"> Vishvarajsinh Sisodiya <span class="R">X-Dock 2437936</span></td>
   </tr>
  <div class="profile" id="H2" style="display: none;">
   <figure>
